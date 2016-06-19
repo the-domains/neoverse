@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[NEOVERSE]]></title>
+        <description><![CDATA[NEOVERSE]]></description>
+        <link>http://github.com/dylang/node-rss</link>
+        <generator>The Grid</generator>
+        <lastBuildDate>Sun, 19 Jun 2016 22:54:33 GMT</lastBuildDate>
+        <atom:link href="undefinedrss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[<p>“Are we slaves?” a daughter blurts to the dinner table. Her father, Dagny, looks to the faces of his sons with a bleak hope they will do something absurd to change the subject. He is met with an uncharacteristic silence. No dice. “eMir says that we are slaves for the robot men.”, the girl continues. </p>]]></description>
+            <link>undefinedare-we-slaves-a-daughter-blurts-to-the-dinner-table-her/index.html</link>
+            <guid isPermaLink="false">86b1d0e1-a1a8-41c3-a3ba-b489efb98e31</guid>
+            <pubDate>Sun, 19 Jun 2016 22:52:59 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
