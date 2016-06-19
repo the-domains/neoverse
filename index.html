@@ -1,0 +1,671 @@
+<!DOCTYPE HTML><html class="exporting wf-loading"><head><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/><title>NEOVERSE</title><meta property="og:title" content="NEOVERSE"/><meta property="og:type" content="website"/><meta name="generator" content="The Grid taylor/0.19.13"><meta name="the-grid-solution" content="b4770d02-c666-4ac1-8821-f9edbf715595"><style href="./css/scale/mini.css" media="(max-width: 19.9376em)" rel="stylesheet">@media (max-width: 15.625em){html{font-size:3.09375em !important}}
+@media (min-width: 15.6875em)and (max-width: 15.75em){	html{font-size:3.28125em !important}}
+@media (min-width: 15.8125em)and (max-width: 16.25em){	html{font-size:3.375em !important}}
+@media (min-width: 16.3125em)and (max-width: 16.6875em){html{font-size:3.46875em !important}}
+@media (min-width: 16.75em)and (max-width: 17.125em){	html{font-size:3.5625em !important}}
+@media (min-width: 17.1875em)and (max-width: 17.5625em){html{font-size:3.65625em !important}}
+@media (min-width: 17.625em)and (max-width: 18em){		html{font-size:3.75em !important}}
+@media (min-width: 18.0625em)and (max-width: 18.5em){	html{font-size:3.84375em !important}}
+@media (min-width: 18.5625em)and (max-width: 18.9375em){html{font-size:3.9375em !important}}
+@media (min-width: 19em)and (max-width: 19.375em){		html{font-size:4.03125em !important}}
+@media (min-width: 19.4375em)and (max-width: 19.8125em){html{font-size:4.1125em !important}}
+@media (min-width: 19.875em){html{font-size:4.17125em !important}}</style><style href="./css/scale/small.css" media="(min-width: 20em)" rel="stylesheet">@media (max-width: 20.25em)   {html{font-size:4.125em !important}}
+@media (min-width: 20.3125em) {html{font-size:4.3125em !important}}
+@media (min-width: 20.8125em) {html{font-size:4.40625em !important}}
+@media (min-width: 21.25em)   {html{font-size:4.5em !important}}
+@media (min-width: 21.6875em) {html{font-size:4.59375em !important}}
+@media (min-width: 22.125em)  {html{font-size:4.6875em !important}}
+@media (min-width: 22.5625em) {html{font-size:4.78125em !important}}
+@media (min-width: 23.0625em) {html{font-size:4.875em !important}}
+@media (min-width: 23.5em)    {html{font-size:4.96875em !important}}
+@media (min-width: 23.9375em) {html{font-size:5.0625em !important}}
+@media (min-width: 24.375em)  {html{font-size:5.15625em !important}}
+@media (min-width: 24.8125em) {html{font-size:5.25em !important}}
+@media (min-width: 25.3125em) {html{font-size:5.34375em !important}}
+@media (min-width: 25.75em)   {html{font-size:5.4375em !important}}
+@media (min-width: 26.1875em) {html{font-size:5.53125em !important}}
+@media (min-width: 26.625em)  {html{font-size:5.625em !important}}
+@media (min-width: 27.0625em) {html{font-size:5.71875em !important}}
+@media (min-width: 27.5625em) {html{font-size:5.8125em !important}}
+@media (min-width: 28em)      {html{font-size:5.90625em !important}}
+@media (min-width: 28.4375em) {html{font-size:6em !important}}
+@media (min-width: 28.875em)  {html{font-size:6.09375em !important}}
+@media (min-width: 29.3125em) {html{font-size:6.18375em !important}}
+@media (min-width: 29.6125em) {html{font-size:6.27375em !important}}
+@media (min-width: 30.025em)  {html{font-size:4.1875em !important}}
+@media (min-width: 30.25em)   {html{font-size:4.25em !important}}
+@media (min-width: 30.6875em) {html{font-size:4.3125em !important}}
+@media (min-width: 31.125em)  {html{font-size:4.375em !important}}
+@media (min-width: 31.5625em) {html{font-size:4.4375em !important}}
+@media (min-width: 32.0625em) {html{font-size:4.5em !important}}
+@media (min-width: 32.5em)    {html{font-size:4.5625em !important}}
+@media (min-width: 32.9375em) {html{font-size:4.625em !important}}
+@media (min-width: 33.375em)  {html{font-size:4.6875em !important}}
+@media (min-width: 33.8125em) {html{font-size:4.75em !important}}
+@media (min-width: 34.3125em) {html{font-size:4.8125em !important}}
+@media (min-width: 34.75em)   {html{font-size:4.875em !important}}
+@media (min-width: 35.1875em) {html{font-size:4.9375em !important}}
+@media (min-width: 35.625em)  {html{font-size:5em !important}}
+@media (min-width: 36.0625em) {html{font-size:5.0625em !important}}
+@media (min-width: 36.5625em) {html{font-size:5.125em !important}}
+@media (min-width: 37em)      {html{font-size:5.1875em !important}}
+@media (min-width: 37.4375em) {html{font-size:5.25em !important}}
+@media (min-width: 37.875em)  {html{font-size:5.3125em !important}}
+@media (min-width: 38.3125em) {html{font-size:5.375em !important}}
+@media (min-width: 38.8125em) {html{font-size:5.4375em !important}}
+@media (min-width: 39.25em)   {html{font-size:5.5em !important}}
+@media (min-width: 39.6875em) {html{font-size:5.5625em !important}}
+@media (min-width: 40.125em)  {html{font-size:5.625em !important}}
+@media (min-width: 40.5625em) {html{font-size:5.6875em !important}}
+@media (min-width: 41.0625em) {html{font-size:5.75em !important}}
+@media (min-width: 41.5em)    {html{font-size:5.8125em !important}}
+@media (min-width: 41.9375em) {html{font-size:5.875em !important}}
+@media (min-width: 42.375em)  {html{font-size:5.9375em !important}}
+@media (min-width: 42.8125em) {html{font-size:6em !important}}
+@media (min-width: 43.3125em) {html{font-size:6.0625em !important}}
+@media (min-width: 43.75em)   {html{font-size:6.125em !important}}
+@media (min-width: 44.1875em) {html{font-size:6.185em !important}}
+@media (min-width: 44.625em)  {html{font-size:6.24em !important}}</style><style href="./css/scale/medium.css" media="(min-width: 45.0625em)" rel="stylesheet">
+@media (min-width: 45.0625em)and (max-width: 45.9375em){html{font-size:4.78125em !important}}
+@media (min-width: 46em)and (max-width: 46.8125em){		html{font-size:4.875em !important}}
+@media (min-width: 46.875em)and (max-width: 47.75em){	html{font-size:4.96875em !important}}
+@media (min-width: 47.8125em)and (max-width: 48.625em){	html{font-size:5.0625em !important}}
+@media (min-width: 48.6875em)and (max-width: 49.5em){	html{font-size:5.15625em !important}}
+@media (min-width: 49.5625em)and (max-width: 50.4375em){html{font-size:5.25em !important}}
+@media (min-width: 50.5em)and (max-width: 51.3125em){	html{font-size:5.34375em !important}}
+@media (min-width: 51.375em)and (max-width: 52.25em){	html{font-size:5.4375em !important}}
+@media (min-width: 52.3125em)and (max-width: 53.125em){	html{font-size:5.53125em !important}}
+@media (min-width: 53.1875em)and (max-width: 54em){		html{font-size:5.625em !important}}
+@media (min-width: 54.0625em)and (max-width: 54.9375em){html{font-size:5.71875em !important}}
+@media (min-width: 55em)and (max-width: 55.8125em){		html{font-size:5.8125em !important}}
+@media (min-width: 55.875em)and (max-width: 56.75em){	html{font-size:5.90625em !important}}
+@media (min-width: 56.8125em)and (max-width: 57.625em){	html{font-size:6em !important}}
+@media (min-width: 57.6875em)and (max-width: 58.5em){	html{font-size:6.09375em !important}}
+@media (min-width: 58.5625em)and (max-width: 59.4375em){html{font-size:6.18em !important}}
+@media (min-width: 60.01em)and (max-width: 60.3125em){		html{font-size:4.1875em !important}}
+@media (min-width: 60.375em)and (max-width: 61.25em){	html{font-size:4.25em !important}}
+@media (min-width: 61.3125em)and (max-width: 62.125em){	html{font-size:4.3125em !important}}
+@media (min-width: 62.1875em)and (max-width: 63em){		html{font-size:4.375em !important}}
+@media (min-width: 63.0625em)and (max-width: 63.9375em){html{font-size:4.4375em !important}}
+@media (min-width: 64em)and (max-width: 64.8125em){		html{font-size:4.5em !important}}
+@media (min-width: 64.875em)and (max-width: 65.75em){	html{font-size:4.5625em !important}}
+@media (min-width: 65.8125em)and (max-width: 66.625em){	html{font-size:4.625em !important}}
+@media (min-width: 66.6875em)and (max-width: 67.5em){	html{font-size:4.6875em !important}}
+@media (min-width: 67.5625em)and (max-width: 68.4375em){html{font-size:4.75em !important}}
+@media (min-width: 68.5em)and (max-width: 69.3125em){	html{font-size:4.8125em !important}}
+@media (min-width: 69.375em)and (max-width: 70.25em){	html{font-size:4.875em !important}}
+@media (min-width: 70.3125em)and (max-width: 71.125em){	html{font-size:4.9375em !important}}
+@media (min-width: 71.1875em)and (max-width: 72em){		html{font-size:5em !important}}
+@media (min-width: 72.0625em)and (max-width: 72.9375em){html{font-size:5.0625em !important}}
+@media (min-width: 73em)and (max-width: 73.8125em){		html{font-size:5.125em !important}}
+@media (min-width: 73.875em)and (max-width: 74.75em){	html{font-size:5.1875em !important}}
+@media (min-width: 74.8125em)and (max-width: 75.625em){	html{font-size:5.25em !important}}
+@media (min-width: 75.6875em)and (max-width: 76.5em){	html{font-size:5.3125em !important}}
+@media (min-width: 76.5625em)and (max-width: 77.4375em){html{font-size:5.375em !important}}
+@media (min-width: 77.5em)and (max-width: 78.3125em){	html{font-size:5.4375em !important}}
+@media (min-width: 78.375em)and (max-width: 79.25em){	html{font-size:5.5em !important}}
+@media (min-width: 79.3125em)and (max-width: 80.125em){	html{font-size:5.5625em !important}}
+@media (min-width: 80.1875em)and (max-width: 81em){		html{font-size:5.625em !important}}
+@media (min-width: 81.0625em)and (max-width: 81.9375em){html{font-size:5.6875em !important}}
+@media (min-width: 82em)and (max-width: 82.8125em){		html{font-size:5.75em !important}}
+@media (min-width: 82.875em)and (max-width: 83.75em){	html{font-size:5.8125em !important}}
+@media (min-width: 83.8125em)and (max-width: 84.625em){	html{font-size:5.875em !important}}
+@media (min-width: 84.6875em)and (max-width: 85.5em){	html{font-size:5.9375em !important}}
+@media (min-width: 85.5625em)and (max-width: 86.4375em){html{font-size:6em !important}}
+@media (min-width: 86.5em)and (max-width: 87.3125em){	html{font-size:6.0625em !important}}
+@media (min-width: 87.375em)and (max-width: 88.25em){	html{font-size:6.125em !important}}
+@media (min-width: 88.3125em)and (max-width: 89.125em){	html{font-size:6.185em !important}}
+@media (min-width: 89.1875em){html{font-size:6.245em !important}}</style><style href="./css/scale/large.css" media="(min-width: 90.0625em)" rel="stylesheet">
+@media (min-width: 90em)and (max-width: 90em){html{font-size:4.9375em !important}}
+@media (min-width: 90.0625em)and (max-width: 91.125em){  html{font-size:5.0625em !important}}
+@media (min-width: 91.1875em)and (max-width: 92.25em){   html{font-size:5.125em !important}}
+@media (min-width: 92.3125em)and (max-width: 93.375em){  html{font-size:5.1875em !important}}
+@media (min-width: 93.4375em)and (max-width: 94.5em){    html{font-size:5.25em !important}}
+@media (min-width: 94.5625em)and (max-width: 95.625em){  html{font-size:5.3125em !important}}
+@media (min-width: 95.6875em)and (max-width: 96.75em){   html{font-size:5.375em !important}}
+@media (min-width: 96.8125em)and (max-width: 97.875em){  html{font-size:5.4375em !important}}
+@media (min-width: 97.9375em)and (max-width: 99em){      html{font-size:5.5em !important}}
+@media (min-width: 99.0625em)and (max-width: 100.125em){ html{font-size:5.5625em !important}}
+@media (min-width: 100.1875em)and (max-width: 101.25em){ html{font-size:5.625em !important}}
+@media (min-width: 101.3125em)and (max-width: 102.375em){html{font-size:5.6875em !important}}
+@media (min-width: 102.4375em)and (max-width: 103.5em){  html{font-size:5.75em !important}}
+@media (min-width: 103.5625em)and (max-width: 104.625em){html{font-size:5.8125em !important}}
+@media (min-width: 104.6875em)and (max-width: 105.75em){ html{font-size:5.875em !important}}
+@media (min-width: 105.8125em)and (max-width: 106.875em){html{font-size:5.9375em !important}}
+@media (min-width: 106.9375em)and (max-width: 108em){    html{font-size:6em !important}}
+@media (min-width: 108.0625em)and (max-width: 109.125em){html{font-size:6.0625em !important}}
+@media (min-width: 109.1875em)and (max-width: 110.25em){ html{font-size:6.125em !important}}
+@media (min-width: 110.3125em)and (max-width: 111.375em){html{font-size:6.185em !important}}
+@media (min-width: 111.4375em){html{font-size:6.245em !important}}
+
+@media (min-width: 112.5em)and (max-width: 112.5em){      html{font-size:6.25em !important}}
+@media (min-width: 112.5625em)and (max-width: 113.625em){ html{font-size:6.3125em !important}}
+@media (min-width: 113.6875em)and (max-width: 114.75em){  html{font-size:6.375em !important}}
+@media (min-width: 114.8125em)and (max-width: 115.875em){ html{font-size:6.4375em !important}}
+@media (min-width: 115.9375em)and (max-width: 117em){     html{font-size:6.5em !important}}
+@media (min-width: 117.0625em)and (max-width: 118.125em){ html{font-size:6.5625em !important}}
+@media (min-width: 118.1875em)and (max-width: 119.25em){  html{font-size:6.625em !important}}
+@media (min-width: 119.3125em)and (max-width: 120.375em){ html{font-size:6.6875em !important}}
+@media (min-width: 120.4375em)and (max-width: 121.5em){   html{font-size:6.75em !important}}
+@media (min-width: 121.5625em)and (max-width: 122.625em){ html{font-size:6.8125em !important}}
+@media (min-width: 122.6875em)and (max-width: 123.75em){  html{font-size:6.875em !important}}
+@media (min-width: 123.8125em)and (max-width: 124.875em){ html{font-size:6.9375em !important}}
+@media (min-width: 124.9375em)and (max-width: 126em){     html{font-size:7em !important}}
+@media (min-width: 126.0625em)and (max-width: 127.1875em){html{font-size:7.0625em !important}}
+@media (min-width: 127.25em)and (max-width: 128.3125em){  html{font-size:7.125em !important}}
+@media (min-width: 128.375em)and (max-width: 129.4375em){ html{font-size:7.1875em !important}}
+@media (min-width: 129.5em)and (max-width: 130.5625em){   html{font-size:7.2475em !important}}
+@media (min-width: 130.625em){html{font-size:7.3075em !important}}</style><style href="./css/reset.css" rel="stylesheet">*,
+*:before,
+*:after {
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern";
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  padding: 0;
+  margin: 0;
+}
+div,
+section,
+article,
+aside,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+svg,
+iframe,
+a {
+  border-style: solid;
+  outline-style: solid;
+  border-width: 0;
+  outline-width: 0;
+}
+.media {
+  box-sizing: content-box;
+}
+html {
+  width: 100%;
+  font-size: 16px;
+}
+body {
+  width: 100%;
+  /* Dangerous? Makes mobile happy */
+  overflow: hidden;
+  overflow-y: auto;
+}
+.stack {
+  z-index: 1;
+  transition: transform 0.3s ease-out;
+}
+picture {
+  display: inline-block;
+}
+picture img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+iframe {
+  border: none;
+  outline: 0;
+  height: 100%;
+  width: 100%;
+}
+.group {
+  pointer-events: none;
+}
+.group > * {
+  pointer-events: all;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.text a,
+.data a {
+  border-bottom: 1px solid transparent;
+}
+a.more {
+  font-weight: bold;
+  white-space: nowrap;
+  display: inline-block;
+}
+span.final-word {
+  margin-right: 1em;
+  margin-bottom: 1em;
+  display: inline-block;
+}
+a:link,
+a:visited {
+  transition: color 0.3s ease-out, background-color 0.3s ease-in;
+  -webkit-transition: color 0.3s ease-out, background-color 0.3s ease-in;
+}
+a:hover,
+a:focus {
+  transition: color 0.2s ease-in, background-color 0.2s ease-out;
+  -webkit-transition: color 0.2s ease-in, background-color 0.2s ease-out;
+}
+a:active {
+  transition: color 0.1s ease-in, background-color 0.1s ease-out;
+  -webkit-transition: color 0.1s ease-in, background-color 0.1s ease-out;
+}
+a.aside {
+  display: inline-block;
+}
+html.exporting a {
+  transition: none;
+}
+.cta {
+  text-decoration: none;
+}
+.media > a {
+  display: inline-block;
+}
+h1 a,
+h2 a,
+h3 a {
+  font-weight: inherit;
+  letter-spacing: inherit;
+}
+a {
+  -webkit-box-decoration-break: clone;
+  -ms-box-decoration-break: clone;
+  -moz-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+.text-decoration {
+  -webkit-box-decoration-break: clone;
+  -ms-box-decoration-break: clone;
+  -moz-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+.aside.text-decoration {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.decoration {
+  pointer-events: none;
+}
+.svg {
+  position: relative;
+}
+.svg > svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.svg.connector > svg {
+  width: 109%;
+  height: 109%;
+  margin-left: -2%;
+}
+.svg path,
+.svg ellipse,
+.svg rect,
+.svg polygon,
+.svg circle {
+  fill: currentColor !important;
+}
+.svg mpath,
+.svg line,
+.svg polyline {
+  stroke: currentColor !important;
+}
+.decoration {
+  background-color: currentColor;
+}
+.svg {
+  background-color: transparent;
+}
+.revealed .play.svg:after {
+  display: block;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -20px;
+  background-color: currentColor;
+  content: "";
+}
+.revealed,
+.revealed > * {
+  pointer-events: none;
+}
+.revealed .aside,
+.revealed a {
+  pointer-events: all;
+}
+.panel.w_cta {
+  z-index: 3;
+}
+.panel .cta {
+  opacity: 0;
+}
+.widget.button {
+  padding: 20px;
+  box-sizing: content-box;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.85));
+}
+.widget.expanded {
+  transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+}
+.cta.checkout {
+  position: fixed !important;
+  background-color: inherit;
+  border-radius: 50%;
+  border: 10px solid transparent;
+  margin: -10px;
+  box-sizing: content-box;
+  z-index: 10;
+}
+.revealed {
+  background-image: none !important;
+  background-color: none !important;
+}
+.stack,
+.group,
+.aside,
+.decoration,
+.media,
+html body a.media,
+.media img,
+.media picture,
+.group iframe,
+.widget,
+.cta {
+  min-width: 0;
+  min-height: 0;
+  transition-duration: .3s;
+  transition-property: transform, color, background-color, opacity, clip, z-index, border-width;
+  transition-timing-function: ease-out;
+  -webkit-transition-duration: .3s;
+  -webkit-transition-property: -webkit-transform, color, background-color, opacity, clip, z-index, border-width;
+  -webkit-transition-timing-function: ease-out;
+}
+.media img {
+  transition-property: transform, color, background-color;
+  -webkit-transition-property: -webkit-transform, color, background-color;
+}
+.decoration {
+  z-index: 3;
+}
+.panel ul {
+  list-style-type: none !important;
+}
+ul {
+  list-style-position: inside;
+}
+.panel .heading {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.listing:not(.open) .shadow-overlay {
+  pointer-events: none;
+}
+.group {
+  z-index: 1;
+}
+.group .decoration {
+  opacity: .95;
+}
+.group .title,
+.group .text,
+.group .aside {
+  z-index: 2;
+}
+.group .attribution:after {
+  display: block;
+  clear: both;
+  content: '';
+  height: 0px;
+}
+.group .attribution .publisher {
+  display: inline-block;
+  vertical-align: top;
+}
+.group .attribution .author {
+  display: inline-block;
+  vertical-align: top;
+  color: inherit;
+  z-index: 3;
+}
+.group .attribution a.author {
+  font-weight: bold;
+}
+.group .attribution .avatar > img,
+.group .attribution .avatar > picture,
+.group .attribution .avatar a,
+.group .attribution .avatar {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+</style><style id="web-font-binder" type="text/css">html {font-family: "Georgia", "Times New Roman", "Times", "serif";;font-weight: 400;}
+ .wf-active html {font-family: "Alegreya", "Georgia", "Times New Roman", "Times", "serif";}
+ .layout-system .stack .hero {font-family: "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";;font-weight: 700;}
+
+ .wf-active  .layout-system .stack .hero {font-family: "Alegreya Sans", "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";}
+ .layout-system .stack .title {font-family: "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";;}
+
+ .wf-active  .layout-system .stack .title {font-family: "Alegreya Sans", "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";}
+ .layout-system .stack .subtitle {font-family: "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";;}
+
+ .wf-active  .layout-system .stack .subtitle {font-family: "Alegreya Sans", "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";}
+ .layout-system .stack .title {font-weight: 400;}
+ .layout-system .stack .subtitle {font-weight: 700;}
+ .layout-system .stack .text {font-family: "Georgia", "Times New Roman", "Times", "serif";;}
+
+ .wf-active  .layout-system .stack .text {font-family: "Alegreya", "Georgia", "Times New Roman", "Times", "serif";}
+ a {font-family: "Georgia", "Times New Roman", "Times", "serif";;font-weight: 400;}
+
+ .wf-active  a {font-family: "Alegreya", "Georgia", "Times New Roman", "Times", "serif";}
+ .attribution {font-family: "Georgia", "Times New Roman", "Times", "serif";;font-weight: 400;text-transform: inherit;}
+
+ .wf-active  .attribution {font-family: "Alegreya", "Georgia", "Times New Roman", "Times", "serif";}
+ .layout-system .stack .quote {font-family: "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";;font-weight: 400;font-style: normal;}
+
+ .wf-active  .layout-system .stack .quote {font-family: "Alegreya Sans", "-apple-system", ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", "sans-serif";}
+ .layout-system .stack .subtitle {text-transform: inherit;}.layout-system .title a {
+  font: inherit;
+}</style><style id="page-css-solution">
+@media (max-width: 480px) {
+.layout-system { margin: 0px auto; position: relative; }
+#page-ba6eb11b-37e6-429d-8925-a777e4522fd5#page-ba6eb11b-37e6-429d-8925-a777e4522fd5{width: 4.804rem;}
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-mobile-l-one#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-mobile-l-one{position: relative;}
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-mobile-l-one-l-one#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-mobile-l-one-l-one{position: relative; display: block; width: 4.804rem; height: 34.324rem; top: 0rem; left: 0rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702{font-size: 0.164rem; line-height: 0.204rem; height: 33.844rem; width: 4.324rem; position: absolute; top: 0.244rem; left: 0.244rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702:before{}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 >.group.textual { text-align: center; }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual{opacity: 1; font-size: 0.164rem; line-height: 0.244rem; height: 33.844rem; width: 4.324rem; position: absolute; top: 0rem; left: 0rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual-t-paragraph#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual-t-paragraph{font-size: 0.164rem; line-height: 0.244rem; width: 3.844rem; position: absolute; top: 0.244rem; left: 0.244rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual > .text.paragraph { color: rgb(9, 6, 1); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual > .text.paragraph a { color: rgb(157, 145, 126); border-color: rgba(70, 57, 41, 0.498039); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual > .text.paragraph a:hover { color: rgb(145, 144, 146); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual .text-decoration { background-color: rgb(255, 255, 255); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 a { color: rgb(143, 120, 79); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 a:hover { color: rgb(204, 204, 204); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 a:active { color: rgb(255, 255, 255); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 { background-color: rgb(238, 238, 241); }
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-mobile-l-one-l-one#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-mobile-l-one-l-one { background-color: rgb(238, 238, 241); }
+.export-linebreaks, .export-linebreaks .aside .aside { white-space: nowrap }
+.translated-ltr .export-linebreaks, .export-linebreaks .aside { white-space: normal }
+.translated-ltr wbr, wbr[class] { display: none }
+wbr.w480{ display: block }
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-desktop-l-one,
+ #u-ba6eb11b-37e6-429d-8925-a777e4522fd5-cinema-l-one {
+display: none;
+}
+}
+@media (min-width: 481px) and (max-width: 720px){
+.layout-system { margin: 0px auto; position: relative; }
+#page-ba6eb11b-37e6-429d-8925-a777e4522fd5#page-ba6eb11b-37e6-429d-8925-a777e4522fd5{width: 7.204rem;}
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-mobile-l-one#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-mobile-l-one{position: relative;}
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-mobile-l-one-l-one#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-mobile-l-one-l-one{position: relative; display: block; width: 7.204rem; height: 23.284rem; top: 0rem; left: 0rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702{font-size: 0.164rem; line-height: 0.204rem; height: 22.564rem; width: 6.484rem; position: absolute; top: 0.364rem; left: 0.364rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702:before{}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 >.group.textual { text-align: center; }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual{opacity: 1; font-size: 0.164rem; line-height: 0.244rem; height: 22.564rem; width: 6.484rem; position: absolute; top: 0rem; left: 0rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual-t-paragraph#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual-t-paragraph{font-size: 0.164rem; line-height: 0.244rem; width: 5.764rem; position: absolute; top: 0.364rem; left: 0.364rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual > .text.paragraph { color: rgb(9, 6, 1); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual > .text.paragraph a { color: rgb(157, 145, 126); border-color: rgba(70, 57, 41, 0.498039); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual > .text.paragraph a:hover { color: rgb(145, 144, 146); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual .text-decoration { background-color: rgb(255, 255, 255); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 a { color: rgb(143, 120, 79); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 a:hover { color: rgb(204, 204, 204); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 a:active { color: rgb(255, 255, 255); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 { background-color: rgb(238, 238, 241); }
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-mobile-l-one-l-one#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-mobile-l-one-l-one { background-color: rgb(238, 238, 241); }
+.export-linebreaks, .export-linebreaks .aside .aside { white-space: nowrap }
+.translated-ltr .export-linebreaks, .export-linebreaks .aside { white-space: normal }
+.translated-ltr wbr, wbr[class] { display: none }
+wbr.w481{ display: block }
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-desktop-l-one,
+ #u-ba6eb11b-37e6-429d-8925-a777e4522fd5-cinema-l-one {
+display: none;
+}
+}
+@media (min-width: 721px) and (max-width: 960px) {
+.layout-system { margin: 0px auto; position: relative; }
+#page-ba6eb11b-37e6-429d-8925-a777e4522fd5#page-ba6eb11b-37e6-429d-8925-a777e4522fd5{width: 9.604rem;}
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-desktop-l-one#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-desktop-l-one{position: relative;}
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-desktop-l-one-l-one#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-desktop-l-one-l-one{position: relative; display: block; width: 9.604rem; height: 35.284rem; top: 0rem; left: 0rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702{font-size: 0.164rem; line-height: 0.204rem; height: 34.324rem; width: 8.644rem; position: absolute; top: 0.484rem; left: 0.484rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702:before{}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 >.group.textual { text-align: center; }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual{opacity: 1; font-size: 0.164rem; line-height: 0.244rem; height: 34.324rem; width: 8.644rem; position: absolute; top: 0rem; left: 0rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual-t-paragraph#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual-t-paragraph{font-size: 0.164rem; line-height: 0.244rem; width: 3.844rem; position: absolute; top: 0.484rem; left: 2.404rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual > .text.paragraph { color: rgb(9, 6, 1); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual > .text.paragraph a { color: rgb(157, 145, 126); border-color: rgba(70, 57, 41, 0.498039); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual > .text.paragraph a:hover { color: rgb(145, 144, 146); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual .text-decoration { background-color: rgb(255, 255, 255); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 a { color: rgb(143, 120, 79); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 a:hover { color: rgb(204, 204, 204); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 a:active { color: rgb(255, 255, 255); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 { background-color: rgb(238, 238, 241); }
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-desktop-l-one-l-one#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-desktop-l-one-l-one { background-color: rgb(238, 238, 241); }
+.export-linebreaks, .export-linebreaks .aside .aside { white-space: nowrap }
+.translated-ltr .export-linebreaks, .export-linebreaks .aside { white-space: normal }
+.translated-ltr wbr, wbr[class] { display: none }
+wbr.w960{ display: block }
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-mobile-l-one,
+ #u-ba6eb11b-37e6-429d-8925-a777e4522fd5-cinema-l-one {
+display: none;
+}
+}
+@media (min-width: 961px) and (max-width: 1440px){
+.layout-system { margin: 0px auto; position: relative; }
+#page-ba6eb11b-37e6-429d-8925-a777e4522fd5#page-ba6eb11b-37e6-429d-8925-a777e4522fd5{width: 14.404rem;}
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-desktop-l-one#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-desktop-l-one{position: relative;}
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-desktop-l-one-l-one#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-desktop-l-one-l-one{position: relative; display: block; width: 14.404rem; height: 24.724rem; top: 0rem; left: 0rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702{font-size: 0.164rem; line-height: 0.204rem; height: 23.284rem; width: 12.964rem; position: absolute; top: 0.724rem; left: 0.724rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702:before{}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 >.group.textual { text-align: center; }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual{opacity: 1; font-size: 0.164rem; line-height: 0.244rem; height: 23.284rem; width: 12.964rem; position: absolute; top: 0rem; left: 0rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual-t-paragraph#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual-t-paragraph{font-size: 0.164rem; line-height: 0.244rem; width: 5.764rem; position: absolute; top: 0.724rem; left: 3.604rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual > .text.paragraph { color: rgb(9, 6, 1); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual > .text.paragraph a { color: rgb(157, 145, 126); border-color: rgba(70, 57, 41, 0.498039); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual > .text.paragraph a:hover { color: rgb(145, 144, 146); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual .text-decoration { background-color: rgb(255, 255, 255); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 a { color: rgb(143, 120, 79); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 a:hover { color: rgb(204, 204, 204); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 a:active { color: rgb(255, 255, 255); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 { background-color: rgb(238, 238, 241); }
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-desktop-l-one-l-one#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-desktop-l-one-l-one { background-color: rgb(238, 238, 241); }
+.export-linebreaks, .export-linebreaks .aside .aside { white-space: nowrap }
+.translated-ltr .export-linebreaks, .export-linebreaks .aside { white-space: normal }
+.translated-ltr wbr, wbr[class] { display: none }
+wbr.w961{ display: block }
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-mobile-l-one,
+ #u-ba6eb11b-37e6-429d-8925-a777e4522fd5-cinema-l-one {
+display: none;
+}
+}
+@media (min-width: 1441px) and (max-width: 1799px) {
+.layout-system { margin: 0px auto; position: relative; }
+#page-ba6eb11b-37e6-429d-8925-a777e4522fd5#page-ba6eb11b-37e6-429d-8925-a777e4522fd5{width: 17.994rem;}
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-cinema-l-one#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-cinema-l-one{position: relative;}
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-cinema-l-one-l-one#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-cinema-l-one-l-one{position: relative; display: block; width: 17.994rem; height: 31.504rem; top: 0rem; left: 0rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702{font-size: 0.204rem; line-height: 0.254rem; height: 29.704rem; width: 16.204rem; position: absolute; top: 0.904rem; left: 0.904rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702:before{}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 >.group.textual { text-align: center; }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual{opacity: 1; font-size: 0.204rem; line-height: 0.304rem; height: 29.704rem; width: 16.204rem; position: absolute; top: 0rem; left: 0rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual-t-paragraph#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual-t-paragraph{font-size: 0.204rem; line-height: 0.304rem; width: 7.204rem; position: absolute; top: 0.904rem; left: 4.504rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual > .text.paragraph { color: rgb(9, 6, 1); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual > .text.paragraph a { color: rgb(157, 145, 126); border-color: rgba(70, 57, 41, 0.498039); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual > .text.paragraph a:hover { color: rgb(145, 144, 146); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual .text-decoration { background-color: rgb(255, 255, 255); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 a { color: rgb(143, 120, 79); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 a:hover { color: rgb(204, 204, 204); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 a:active { color: rgb(255, 255, 255); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 { background-color: rgb(238, 238, 241); }
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-cinema-l-one-l-one#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-cinema-l-one-l-one { background-color: rgb(238, 238, 241); }
+.export-linebreaks, .export-linebreaks .aside .aside { white-space: nowrap }
+.translated-ltr .export-linebreaks, .export-linebreaks .aside { white-space: normal }
+.translated-ltr wbr, wbr[class] { display: none }
+wbr.w1799{ display: block }
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-mobile-l-one,
+ #u-ba6eb11b-37e6-429d-8925-a777e4522fd5-desktop-l-one {
+display: none;
+}
+}
+@media (min-width: 1800px) {
+.layout-system { margin: 0px auto; position: relative; }
+#page-ba6eb11b-37e6-429d-8925-a777e4522fd5#page-ba6eb11b-37e6-429d-8925-a777e4522fd5{width: 18rem;}
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-cinema-l-one#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-cinema-l-one{position: relative;}
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-cinema-l-one-l-one#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-cinema-l-one-l-one{position: relative; display: block; width: 18rem; height: 19.244rem; top: 0rem; left: 0rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702{font-size: 0.154rem; line-height: 0.194rem; height: 17.454rem; width: 16.204rem; position: absolute; top: 0.904rem; left: 0.904rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702:before{}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 >.group.textual { text-align: center; }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual{opacity: 1; font-size: 0.154rem; line-height: 0.234rem; height: 17.454rem; width: 16.204rem; position: absolute; top: 0rem; left: 0rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual-t-paragraph#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual-t-paragraph{font-size: 0.154rem; line-height: 0.234rem; width: 7.204rem; position: absolute; top: 0.904rem; left: 4.504rem;}
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual > .text.paragraph { color: rgb(9, 6, 1); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual > .text.paragraph a { color: rgb(157, 145, 126); border-color: rgba(70, 57, 41, 0.498039); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual > .text.paragraph a:hover { color: rgb(145, 144, 146); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 .group.textual .text-decoration { background-color: rgb(255, 255, 255); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 a { color: rgb(143, 120, 79); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 a:hover { color: rgb(204, 204, 204); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 a:active { color: rgb(255, 255, 255); }
+#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702#u-33ed5462-b761-4ea4-b585-e0f9c2b4e702 { background-color: rgb(238, 238, 241); }
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-cinema-l-one-l-one#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-cinema-l-one-l-one { background-color: rgb(238, 238, 241); }
+.export-linebreaks, .export-linebreaks .aside .aside { white-space: nowrap }
+.translated-ltr .export-linebreaks, .export-linebreaks .aside { white-space: normal }
+.translated-ltr wbr, wbr[class] { display: none }
+wbr.w1800{ display: block }
+#u-ba6eb11b-37e6-429d-8925-a777e4522fd5-mobile-l-one,
+ #u-ba6eb11b-37e6-429d-8925-a777e4522fd5-desktop-l-one {
+display: none;
+}
+}</style></head><body><div class="layout-system rust mobile" id="page-ba6eb11b-37e6-429d-8925-a777e4522fd5"><section kind="layout" style="position: relative" sequence="one" role="opener" diff_index="0" index="one" class="layout one i first_layout last_layout w_paragraph w_text w_separator w_decoration w_leader w_trailer w_long_paragraph w_long_text layout one" id="u-ba6eb11b-37e6-429d-8925-a777e4522fd5-mobile-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts layout one i first_layout last_layout opener layout one" id="u-ba6eb11b-37e6-429d-8925-a777e4522fd5-mobile-l-one-l-one"></div><style id="u-ba6eb11b-37e6-429d-8925-a777e4522fd5-color">body{background-color: rgba(238, 238, 241, 1)}</style></section><article subject="feature" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_text_emphasis_no_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_none stack_v_align_bottom stack_h_align_stretch uninverted vertical fullscreen_first full line_padding_aside_inside text_width_normal group_v_align_none group_h_align_none text_align_center flow_unreversed group_v_outset_none group_v_inset_small group_h_outset_none group_h_inset_small flow_vertical font_size_medium feature stack textual i first_feature last_feature w_paragraph w_text w_decoration w_long_paragraph w_long_text stack textual" itemid="33ed5462-b761-4ea4-b585-e0f9c2b4e702" itemtype="intro" diff_index="0" index="textual" kind="stack" score="0.75" missed="0.75" tag="article" id="u-33ed5462-b761-4ea4-b585-e0f9c2b4e702"><div kind="group" index="textual" class="group textual group textual" id="u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-33ed5462-b761-4ea4-b585-e0f9c2b4e702-g-textual-t-paragraph"><p><span class="first-letter">&#X201C;</span>Are we slaves?&#x201D; a daughter blurts to the dinner table. Her <wbr class="w480 w960"></wbr>father, Dagny, looks to the <wbr class="w1799"></wbr>faces<wbr class="w481 w961"></wbr> of his sons with a bleak <wbr class="w480 w960 w1800"></wbr>hope they will do something absurd to change the subject. <wbr class="w480 w960 w1799"></wbr>He is <wbr class="w481 w961"></wbr>met with an uncharacteristic silence. No dice. &#x201C;eMir <wbr class="w480 w960 w1800"></wbr>says that we are slaves for the <wbr class="w1799"></wbr>robot <wbr class="w481 w961"></wbr>men.&#x201D;, the girl<wbr class="w480 w960"></wbr> continues. &#x201C;No Geneste, we are not their slaves and they are <wbr class="w480 w960"></wbr>not<wbr class="w1799"></wbr> <wbr class="w1800"></wbr>men. They <wbr class="w481 w961"></wbr>were once women and men who gave up <wbr class="w480 w960"></wbr>their bodies to help everyone&#x201D;, <wbr class="w1799"></wbr>Dagny replies.<wbr class="w481 w961"></wbr> Geneste <wbr class="w480 w960"></wbr>continues,<wbr class="w1800"></wbr> &#x201C;Is mommy a robot person?&#x201D;. The emptiness of <wbr class="w480 w960"></wbr>the <wbr class="w1799"></wbr>chair to Dagny&#x2019;s <wbr class="w481 w961"></wbr>left suddenly seared his heart.<wbr class="w480 w960"></wbr> Children can be so <wbr class="w1800"></wbr>cruel in their<wbr class="w1799"></wbr> curiosity, he thinks. <wbr class="w480 w481 w960 w961"></wbr>&#x201C;Mommy is with the dreamers now. She will visit you when <wbr class="w480 w960"></wbr>she is <wbr class="w1799"></wbr>ready. She loves <wbr class="w1800"></wbr>you <wbr class="w481 w961"></wbr>very much&#x201D;. After the last of the <wbr class="w480 w960"></wbr>last of the noot had been slurped <wbr class="w1799"></wbr>up and not a moment<wbr class="w481 w961"></wbr> <wbr class="w480 w960"></wbr>sooner, the father directs, <wbr class="w1800"></wbr>&#x201C;Zhan, please put your sister to<wbr class="w480 w960"></wbr> bed, <wbr class="w1799"></wbr>eMir and I will clean up <wbr class="w481 w961"></wbr>and prepare next week&#x2019;s <wbr class="w480 w960"></wbr>meals. And talk.&#x201D; eMir&#x2019;s head<wbr class="w1800"></wbr> sinks<wbr class="w1799"></wbr> even lower as his older <wbr class="w480 w481 w960 w961"></wbr>brother responds with a dutiful &#x201C;yes sir.&#x201D;, starkly <wbr class="w480 w960"></wbr>contrasting his <wbr class="w1799"></wbr>own transgression. A <wbr class="w1800"></wbr>sad <wbr class="w481 w961"></wbr>greenish grey<wbr class="w480 w960"></wbr> light hums lazily to life as young Geneste skips <wbr class="w1799"></wbr>and hops <wbr class="w480 w960"></wbr>into the tube<wbr class="w481 w961"></wbr> room, her big brother close <wbr class="w1800"></wbr>behind. Zhan <wbr class="w480 w960"></wbr>herds her toward her <wbr class="w1799"></wbr>own sleeping tube <wbr class="w481 w961"></wbr>laughing<wbr class="w480 w960"></wbr> distractedly as she gleefully relays her day in school <wbr class="w1800"></wbr>to him. <wbr class="w480 w960 w1799"></wbr>The little girl&#x2019;s tube <wbr class="w481 w961"></wbr>is adorned with paintings of flowers <wbr class="w480 w960"></wbr>she had seen at the botany lab.<wbr class="w1799"></wbr> Similar works of hers <wbr class="w481 w961 w1800"></wbr>could <wbr class="w480 w960"></wbr>be found throughout the home - in the closets, on the<wbr class="w480 w960"></wbr> <wbr class="w1799"></wbr>ceiling, they even saturated<wbr class="w481 w961"></wbr> every spot within a short arms <wbr class="w480 w960 w1800"></wbr>reach of the toilet. The boys <wbr class="w1799"></wbr>didn&#x2019;t mind once their own <wbr class="w480 w481 w960 w961"></wbr>coveralls had been deemed off limits, until that point work <wbr class="w480 w960 w1799"></wbr>had <wbr class="w1800"></wbr>been somewhat<wbr class="w481 w961"></wbr> embarrassing. Geneste got a running <wbr class="w480 w960"></wbr>start and spryly launched<wbr class="w1799"></wbr> herself into the flowered <wbr class="w481 w961"></wbr>sleeping<wbr class="w1800"></wbr> <wbr class="w480 w960"></wbr>tube audibly knocking her shin in the process. Zhan <wbr class="w480 w960 w1799"></wbr>quickly reached out to <wbr class="w481 w961"></wbr>console her, but was deterred by a <wbr class="w480 w960"></wbr>question <wbr class="w1800"></wbr>from the girl, &#x201C;do the<wbr class="w1799"></wbr> robot people hurt?&#x201D;. Not <wbr class="w481 w961"></wbr>fully<wbr class="w480 w960"></wbr> understanding the question, Zhan asks her if she means <wbr class="w1799"></wbr>to <wbr class="w480 w960"></wbr>ask, &#x201C;do<wbr class="w1800"></wbr> they feel pain?&#x201D;. <wbr class="w481 w961"></wbr>To which Geneste just shrugged a <wbr class="w480 w960"></wbr>quick little shrug. Zhan <wbr class="w1799"></wbr>laughed and said &#x201C;I don&#x2019;t <wbr class="w481 w961"></wbr>think <wbr class="w480 w960"></wbr>they do, <wbr class="w1800"></wbr>they&#x2019;re almost all metal parts. But, I don&#x2019;t <wbr class="w1799"></wbr>know.&#x201D; <wbr class="w480 w960"></wbr>&#x201C;Do their hearts hurt<wbr class="w481 w961"></wbr> when their parents go to the<wbr class="w480 w960"></wbr> dreamers? Do <wbr class="w1800"></wbr>they have robot<wbr class="w1799"></wbr> kids? I&#x2019;ve never seen any <wbr class="w480 w960"></wbr>robot <wbr class="w481 w961"></wbr>kids I bet they&#x2019;re mean like robot people.&#x201D; Zhan is<wbr class="w480 w960"></wbr> <wbr class="w1799"></wbr>accustomed to <wbr class="w1800"></wbr>Geneste&#x2019;s barrage of <wbr class="w481 w961"></wbr>questions and always <wbr class="w480 w960"></wbr>tries to answer her the best <wbr class="w1799"></wbr>that he can, but sometimes he <wbr class="w480 w960"></wbr>can&#x2019;t help <wbr class="w481 w961"></wbr>but<wbr class="w1800"></wbr> chuckle and get lost in the questions<wbr class="w1799"></wbr> himself. <wbr class="w480 w960"></wbr>The little girl sees her big brother <wbr class="w481 w961"></wbr>staring off and feels<wbr class="w480 w960"></wbr> pleased that she <wbr class="w1799 w1800"></wbr>stumped him. With a little smile she pulls <wbr class="w480 w960"></wbr>the tube <wbr class="w481 w961"></wbr>closed and catches his eye when the <wbr class="w1799"></wbr>abrupt<wbr class="w480 w960"></wbr> whoosh of the tube&#x2019;s <wbr class="w1800"></wbr>pressurization replaces <wbr class="w481 w961"></wbr>the image of <wbr class="w480 w960"></wbr>his mother in his <wbr class="w1799"></wbr>mind with his sister&#x2019;s happy little face <wbr class="w480 w960"></wbr>lying under the <wbr class="w481 w961"></wbr>flowered<wbr class="w1800"></wbr> plexiglass. From the<wbr class="w1799"></wbr> hall, Zhan<wbr class="w480 w960"></wbr> can hear his father attempting to find out where <wbr class="w481 w961"></wbr>eMir has <wbr class="w480 w960"></wbr>been going during <wbr class="w1799"></wbr>the time <wbr class="w1800"></wbr>he is logged into school and <wbr class="w480 w960"></wbr>logged out of the <wbr class="w481 w961"></wbr>house. Zhan knows he&#x2019;s been <wbr class="w1799"></wbr>going to the <wbr class="w480 w960"></wbr>Heartstone which floats in the<wbr class="w1800"></wbr> void at the <wbr class="w481 w961"></wbr>center of <wbr class="w480 w960"></wbr>Daedalus station. The<wbr class="w1799"></wbr> mind of every citizen in Daedalus is <wbr class="w480 w960"></wbr>linked to the <wbr class="w481 w961"></wbr>Heartstone during <wbr class="w1800"></wbr>gestation and <wbr class="w1799"></wbr>some say you <wbr class="w480 w960"></wbr>can hear the dreamers if you listen closely <wbr class="w481 w961"></wbr>to it. &#x201C;eMir just<wbr class="w480 w960"></wbr> wants to hear <wbr class="w1799"></wbr>her again&#x201D; thinks<wbr class="w1800"></wbr> Zhan as he walks down the <wbr class="w480 w960"></wbr>hall to the <wbr class="w481 w961"></wbr>deskroom, making no attempt <wbr class="w1799"></wbr>to silence his <wbr class="w480 w960"></wbr>steps. He wants to know why <wbr class="w1800"></wbr>Geneste asked <wbr class="w481 w961"></wbr>about slavery.<wbr class="w480 w960"></wbr> Zhan lowers the <wbr class="w1799"></wbr>seat in front of his vertically challenged <wbr class="w480 w960"></wbr>brother&#x2019;s desk and<wbr class="w481 w961"></wbr> reads the<wbr class="w1800"></wbr> various mortalcore <wbr class="w1799"></wbr>band<wbr class="w480 w960"></wbr> names crudely etched into its surface as the tortured <wbr class="w481 w961"></wbr>device <wbr class="w480 w960"></wbr>boots up. &#x201C;Grand&#x201D;, he<wbr class="w1799"></wbr> mutters as <wbr class="w1800"></wbr>he lifts eMir&#x2019;s grimy<wbr class="w480 w960"></wbr> Oculus unit by its broken <wbr class="w481 w961"></wbr>strap. &#x201C;Even your desktop is a <wbr class="w480 w960 w1799"></wbr>mess!&#x201D; Zhan barks as he holds the Oculus <wbr class="w1800"></wbr>to his eyes with<wbr class="w480 w960"></wbr> <wbr class="w481 w961"></wbr>his right hand and with a <wbr class="w1799"></wbr>graceful flourish of his left hand <wbr class="w480 w960"></wbr>all of the desktop emblems<wbr class="w481 w961"></wbr> stand at <wbr class="w1800"></wbr>attention, <wbr class="w1799"></wbr>organized<wbr class="w480 w960"></wbr> around a &#x201C;living&#x201D; logo for Parabola, eMir&#x2019;s latest favorite <wbr class="w480 w481 w960 w961"></wbr>group of screaming <wbr class="w1799"></wbr>spacerats. In the <wbr class="w1800"></wbr>kitchen, eMir is half <wbr class="w480 w960"></wbr>listening to his father lecturing <wbr class="w481 w961"></wbr>and half<wbr class="w1799"></wbr> imagining what he<wbr class="w480 w960"></wbr> would do to Zhan for snooping if only <wbr class="w1800"></wbr>he could compete <wbr class="w480 w960"></wbr>with <wbr class="w481 w961"></wbr>his <wbr class="w1799"></wbr>more athletic brother. "I'll think of something", he <wbr class="w480 w960"></wbr>conspires to himself. "Are you <wbr class="w481 w961 w1799"></wbr>listening to <wbr class="w1800"></wbr>me?", Dagny <wbr class="w480 w960"></wbr>interrupts the thought while revealing frustration in his<wbr class="w480 w960"></wbr> tone.<wbr class="w481 w961 w1799"></wbr> eMir has had his response chosen since he <wbr class="w1800"></wbr>imagined <wbr class="w480 w960"></wbr>getting caught ditching school. "If <wbr class="w481 w961 w1799"></wbr>it weren't for mom, you <wbr class="w480 w960"></wbr>wouldn't have gotten a parenting license. You're<wbr class="w1800"></wbr> much too <wbr class="w480 w481 w960 w961 w1799"></wbr>sensitive," He stabs. "Dagny". He twists. Dagny would be<wbr class="w480 w960"></wbr> flattered if he thought eMir <wbr class="w1799"></wbr>was<wbr class="w481 w961"></wbr> being sincere and <wbr class="w1800"></wbr>not just <wbr class="w480 w960"></wbr>manipulative. In truth, the single father was not sure he <wbr class="w480 w960 w1799"></wbr>could <wbr class="w481 w961"></wbr>feel anything at all since his wife had been lost. <wbr class="w480 w960 w1800"></wbr>"Perhaps you're right, my son. I<wbr class="w1799"></wbr> appreciate <wbr class="w481 w961"></wbr>your brevity and <wbr class="w480 w960"></wbr>will consider reealignment to the cause. Speaking of the <wbr class="w480 w960 w1799 w1800"></wbr>cause, I've been<wbr class="w481 w961"></wbr> thinking about your future," Dagny <wbr class="w480 w960"></wbr>retorted seriously. "It has come to <wbr class="w1799"></wbr>mind that you may <wbr class="w481 w961"></wbr>be an<wbr class="w480 w960 w1800"></wbr> excellent candidate for the psychonaught program." eMir's <wbr class="w480 w960 w1799"></wbr>knees wobbled as his <wbr class="w481 w961"></wbr>stomach did a barrel roll at the <wbr class="w480 w960 w1800"></wbr>suggestion. It is rare when a parent <wbr class="w1799"></wbr>is able to one up their <wbr class="w480 w481 w960 w961"></wbr>child in such a pissing match. Dagny wasn't pissing<wbr class="w480 w960"></wbr> though. <wbr class="w1800"></wbr>He<wbr class="w1799"></wbr> believed he had no heart<wbr class="w481 w961"></wbr> to break if he knew his <wbr class="w480 w960"></wbr>son would become a drugged out <wbr class="w1799"></wbr>zombie, at least he'd <wbr class="w480 w960"></wbr>know his<wbr class="w1800"></wbr> <wbr class="w481 w961"></wbr>son served a greater purpose than being a <wbr class="w480 w960"></wbr>pubescent <wbr class="w1799"></wbr>little twat. Before eMir could fully <wbr class="w481 w961"></wbr>recall his half <wbr class="w480 w960"></wbr>hatched plan to <wbr class="w1800"></wbr>zone out of Daedalus <wbr class="w1799"></wbr>his father leaned in to <wbr class="w480 w960"></wbr>lock eyes and <wbr class="w481 w961"></wbr>relay in a near whisper, "that's not going to<wbr class="w480 w960 w1799"></wbr> happen". The <wbr class="w1800"></wbr>boys heart began racing, fueled <wbr class="w481 w961"></wbr>by old <wbr class="w480 w960"></wbr>contempt as the father repeated the <wbr class="w1799"></wbr>corporation's mantra, <wbr class="w480 w960"></wbr>"In the Daedalus <wbr class="w481 w961 w1800"></wbr>Complex, everyone has a place and<wbr class="w480 w960"></wbr> everyone is <wbr class="w1799"></wbr>needed." At school with Geneste: "In the <wbr class="w480 w481 w960 w961"></wbr>Daedalus Complex, everyone<wbr class="w1800"></wbr> has a place and<wbr class="w1799"></wbr> everyone is <wbr class="w480 w960"></wbr>needed", a disembodied voice<wbr class="w481 w961"></wbr> blanketed the virtual <wbr class="w480 w960"></wbr>classrom with a <wbr class="w1799"></wbr>mechanical <wbr class="w1800"></wbr>sentimentality. Ekster huddled <wbr class="w480 w960"></wbr>over her <wbr class="w481 w961"></wbr>desk defensively, waiting for class <wbr class="w1799"></wbr>to begin and to <wbr class="w480 w960"></wbr>end. Feeling an uninvited<wbr class="w1800"></wbr> warmth in <wbr class="w481 w961"></wbr>her chest she peered <wbr class="w480 w960"></wbr>timidly <wbr class="w1799"></wbr>through her shining black crop of hair and was met <wbr class="w480 w960"></wbr>by the<wbr class="w481 w961"></wbr> beaming smile of <wbr class="w1800"></wbr>Geneste <wbr class="w1799"></wbr>across the room, erect<wbr class="w480 w960"></wbr> with excitement and wonder. "Freneza. <wbr class="w481 w961"></wbr>Cray-see", thought<wbr class="w1799"></wbr> <wbr class="w480 w960"></wbr>Ekster, her newfound <wbr class="w1800"></wbr>negativity stinging the heart. Eyes to <wbr class="w480 w960"></wbr>desk. <wbr class="w481 w961"></wbr>Compelled to peer <wbr class="w1799"></wbr>again, Ekster fell out of her desk in<wbr class="w480 w960"></wbr> a start upon seeing<wbr class="w1800"></wbr> Geneste's <wbr class="w481 w961"></wbr>excited rigidity now<wbr class="w1799"></wbr> less than <wbr class="w480 w960"></wbr>a meter from her own face. Geneste took the liberty of<wbr class="w481 w961"></wbr> <wbr class="w480 w960"></wbr>hacking the seating <wbr class="w1799 w1800"></wbr>arrangement, engaging in what Ekster <wbr class="w480 w960"></wbr>may have hitherto her very <wbr class="w481 w961"></wbr>recent introduction <wbr class="w1799"></wbr>to the<wbr class="w480 w960"></wbr> technological society of <wbr class="w1800"></wbr>Daedalus considered witchcraft. <wbr class="w480 w960"></wbr>"TIO <wbr class="w481 w961"></wbr>ESTAS FRENOZO", <wbr class="w1799"></wbr>the startled little girl growled as <wbr class="w480 w960"></wbr>she pulled herself back<wbr class="w1800"></wbr> into her desk, <wbr class="w481 w961"></wbr>a chorus of <wbr class="w1799"></wbr>distant <wbr class="w480 w960"></wbr>laughter emanated from her hologram as she rose. "What <wbr class="w480 w960"></wbr>does that <wbr class="w481 w961"></wbr>mean!?",<wbr class="w1799"></wbr> Geneste <wbr class="w1800"></wbr>gleefully interogated. "It means<wbr class="w480 w960"></wbr> I'm trying to-", Ekster began before <wbr class="w481 w961"></wbr>being <wbr class="w1799"></wbr>cutoff by the <wbr class="w480 w960"></wbr>mechanical voice being sucked <wbr class="w1800"></wbr>out of the class and finding <wbr class="w480 w960"></wbr>herself<wbr class="w481 w961"></wbr> alone <wbr class="w1799"></wbr>with Geneste. "What did you do?", Ekster <wbr class="w480 w960"></wbr>asked with concern in her voice.<wbr class="w1800"></wbr> Quite <wbr class="w481 w961"></wbr>the <wbr class="w1799"></wbr>first day of <wbr class="w480 w960"></wbr>school. "I paused class! Are you from earth?" the barrage <wbr class="w480 w960"></wbr>continued. "We're <wbr class="w481 w961 w1799"></wbr>all from Earth, bot". <wbr class="w1800"></wbr>Briefly hurt, "I'm<wbr class="w480 w960"></wbr> not a bot! I'm not from Earth I was born here are <wbr class="w481 w961 w1799"></wbr>you a <wbr class="w480 w960"></wbr>dreamer?" Ekster glimmered the slightest<wbr class="w1800"></wbr> glimmer, <wbr class="w480 w960"></wbr>Geneste felt it and beamed in<wbr class="w481 w961 w1799"></wbr> response. "Well, are you a<wbr class="w480 w960"></wbr> dreamer? Do you know my mom?" The question <wbr class="w1800"></wbr>about her <wbr class="w480 w481 w960 w961 w1799"></wbr>mother inspired in Ekster a bit of unthought admiration <wbr class="w480 w960"></wbr>for the impossibly bright<wbr class="w481 w961"></wbr> <wbr class="w1799"></wbr>Geneste. Her tone<wbr class="w1800"></wbr> changing<wbr class="w480 w960"></wbr> rather drastically to that of maybe, could be, perhaps one <wbr class="w480 w481 w960 w961 w1799"></wbr>day, a friend. "I was taken before I could awaken <wbr class="w1800"></wbr>into the<wbr class="w480 w960"></wbr> dream.", Ekster responded<wbr class="w481 w961 w1799"></wbr> woefully. "I don't think I know <wbr class="w480 w960"></wbr>your mom, and I haven't met mine. But, I will find <wbr class="w1800"></wbr>her, <wbr class="w1799"></wbr>as <wbr class="w480 w481 w960 w961"></wbr>sure as the seeker found--" Geneste found herself alone in <wbr class="w480 w960"></wbr>her room. The <wbr class="w1799"></wbr>transmission <wbr class="w481 w961"></wbr>had ended, or been cut. <wbr class="w1800"></wbr>She <wbr class="w480 w960"></wbr>felt robbed and held her self tightly hoping <wbr class="w1799"></wbr>she'd meet <wbr class="w480 w960"></wbr>Ekster <wbr class="w481 w961"></wbr>again. </p></div></div></article><section kind="layout" style="position: relative" sequence="one" role="opener" diff_index="0" index="one" class="layout one i first_layout last_layout w_paragraph w_text w_separator w_decoration w_leader w_trailer w_long_paragraph w_long_text layout one" id="u-ba6eb11b-37e6-429d-8925-a777e4522fd5-desktop-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts layout one i first_layout last_layout opener layout one" id="u-ba6eb11b-37e6-429d-8925-a777e4522fd5-desktop-l-one-l-one"></div><style id="u-ba6eb11b-37e6-429d-8925-a777e4522fd5-color">body{background-color: rgba(238, 238, 241, 1)}</style></section><section kind="layout" style="position: relative" sequence="one" role="opener" diff_index="0" index="one" class="layout one i first_layout last_layout w_paragraph w_text w_separator w_decoration w_leader w_trailer w_long_paragraph w_long_text layout one" id="u-ba6eb11b-37e6-429d-8925-a777e4522fd5-cinema-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts layout one i first_layout last_layout opener layout one" id="u-ba6eb11b-37e6-429d-8925-a777e4522fd5-cinema-l-one-l-one"></div><style id="u-ba6eb11b-37e6-429d-8925-a777e4522fd5-color">body{background-color: rgba(238, 238, 241, 1)}</style></section></div><script src="//s3-us-west-2.amazonaws.com/cdn.thegrid.io/design-systems/pipeline/0.19.13/client.js"></script><script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script><script id="web-font-loader">if (window.WebFont) 
+  WebFont.load({"google":{"families":["Alegreya Sans:400,700","Alegreya:400,400italic,700,700italic"]},active: function() { 
+  if (window.parent.params) {
+    window.parent.params.console.pop();
+    window.parent.params.console.push('fonts+' + document.readyState);
+  }
+  setTimeout(function() {
+    if (window.engine) {
+      if (window.parent.params) {
+        window.parent.params.console.pop();
+        window.parent.params.console.push('fonts');
+      }
+      document.documentElement.classList.remove('wf-loading')
+      document.documentElement.classList.add('wf-active')
+      window.engine.triggerEvent("interactive")
+    } else {
+      document.documentElement.classList.remove('wf-loading')
+      document.documentElement.classList.add('wf-active')
+    }
+  }, window.callPhantom && 1000 || 300) // let phantom catch up
+},timeout: 25000,classes: false});</script></body></html>
