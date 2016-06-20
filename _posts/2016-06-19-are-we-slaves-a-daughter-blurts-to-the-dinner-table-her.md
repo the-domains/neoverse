@@ -110,14 +110,14 @@ description: >-
   seeker found--" Geneste found herself alone in her room. The transmission had
   ended, or been cut. She felt robbed and held her self tightly hoping she'd
   meet Ekster again. 
-datePublished: '2016-06-19T23:19:29.780Z'
-dateModified: '2016-06-19T23:19:29.383Z'
+datePublished: '2016-06-20T01:38:37.596Z'
+dateModified: '2016-06-20T00:27:06.126Z'
 title: ''
 author: []
 authors: []
 publisher: null
-starred: false
 sourcePath: _posts/2016-06-19-are-we-slaves-a-daughter-blurts-to-the-dinner-table-her.md
+starred: true
 url: are-we-slaves-a-daughter-blurts-to-the-dinner-table-her/index.html
 _type: Article
 
