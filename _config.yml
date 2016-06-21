@@ -1,7 +1,7 @@
 name: NEOVERSE
 favicon: null
-layout_spectrum: 0.75186
-typography_spectrum: 0.64745
+layout_spectrum: 0.4795750055927783
+typography_spectrum: 0.7620255120564252
 title: Matter of Time
 cta:
   domain: null
@@ -17,13 +17,13 @@ opengraph:
   appId: null
 color:
   brandColors:
-    - '#090601'
-    - '#1c1e33'
-    - '#463929'
-    - '#fefefc'
-    - '#8f784f'
-  brandStrength: 0.5
-  lightness: 0.8469031855929643
-  saturation: 0.625
-  rhythmicContrast: 0.25
+    - '#FF6600'
+    - '#C13B00'
+    - '#5E6D70'
+    - '#424E4F'
+    - '#1B1D1E'
+  brandStrength: 0.4233164871111512
+  lightness: 0.4768003092613071
+  saturation: 0.665079259313643
+  rhythmicContrast: 0.3356961908284575
 purpose: []
